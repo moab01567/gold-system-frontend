@@ -1,0 +1,52 @@
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    min-width: 21cm;
+    max-width: 21cm;
+    height: fit-content;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ItemDiv{
+    padding: 10px;
+}
+.ItemDiv:hover{
+    background: #c7d8f6;
+}
+.openInvoiceDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1f3b7b;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border: solid 10px #1f3b7b;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.button:hover{
+    background: #4c86ed;
+    border: solid 10px #4c86ed;
+}

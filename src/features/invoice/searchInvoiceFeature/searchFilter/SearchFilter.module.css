@@ -1,0 +1,43 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-wrap: wrap;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.searchItemDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px;
+  gap: 5px;
+  height: 40px;
+}
+.searchInput {
+  height: 100%;
+  width: 100%;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: #1f3b7b;
+  border: solid #1f3b7b 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.button:hover{
+  background: #4c86ed;
+  border: solid #4c86ed 5px;
+}

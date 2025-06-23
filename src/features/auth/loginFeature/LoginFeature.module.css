@@ -1,0 +1,25 @@
+.loginDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  max-height: 400px;
+  height: 90%;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 20px;
+  border: #f3f4f6 solid 10px;
+  background: #f3f4f6;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+.usernameAndPasswordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.usernameAndPasswordInput {
+  width: 200px;
+}

@@ -1,0 +1,22 @@
+.CompanyInfoTopDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CompanyInfoDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f3b7b;
+  width: 90%;
+  height: 70%;
+}
+
+.CompanyInfoItemDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  margin: 10px;
+}

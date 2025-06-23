@@ -1,0 +1,49 @@
+.DisplayMessageDiv {
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100vw;
+  margin: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  pointer-events: none;
+}
+
+.MessageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 90%;
+  padding: 10px;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.Error {
+  border: solid 5px #ef4444;
+  border-radius: 10px;
+  background-color: #ef4444;
+  margin: 5px;
+}
+.Warn {
+  border: solid 5px #facc15;
+  border-radius: 10px;
+  background-color: #facc15;
+  margin: 5px;
+}
+
+.Info {
+  border: solid 5px #3b82f6;
+  border-radius: 10px;
+  background-color: #3b82f6;
+  margin: 5px;
+}
+.Success {
+  border: solid 5px #22c55e;
+  border-radius: 10px;
+  background-color: #22c55e;
+  margin: 5px;
+}

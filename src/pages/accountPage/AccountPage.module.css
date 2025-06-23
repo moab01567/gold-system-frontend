@@ -1,0 +1,19 @@
+.divPageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.divWrapperChangePasswordFeature {
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+.divWrapperCreateAccountFeature {
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+}

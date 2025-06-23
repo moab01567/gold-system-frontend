@@ -1,0 +1,8 @@
+.holePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f3f4f6;
+}

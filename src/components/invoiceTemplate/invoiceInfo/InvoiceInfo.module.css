@@ -1,0 +1,28 @@
+.InvoiceInfoTopDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.InvoiceInfoDiv {
+  display: flex;
+  flex: 1;
+  width: 90%;
+  height: 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  border: #1f3b7b solid 2px;
+  border-radius: 10px;
+  margin: 2px;
+}
+.InvoiceInfoDivP {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.InvoiceInfoP {
+  font-size: 1rem;
+  color: #1f3b7b;
+  font-weight: bold;
+}

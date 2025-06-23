@@ -1,0 +1,35 @@
+.InvoiceFeatureDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  margin: 10px;
+  zoom: 1;
+}
+.InvoiceFeatureButtonDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: solid 1px #1f3b7b;
+  background: #1f3b7b;
+  color: #ffffff;
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  border: solid 1px #4f7eea;
+  background: #4f7eea;
+}

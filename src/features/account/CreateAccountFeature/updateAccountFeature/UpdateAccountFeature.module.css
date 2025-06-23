@@ -1,0 +1,33 @@
+.mainDiv {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 10px;
+}
+.gridColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+.gridRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.input {
+  width: 80%;
+}
+
+.Button {
+  margin: 5px;
+  background: lightgreen;
+}
+.Button:hover {
+  background: green;
+}

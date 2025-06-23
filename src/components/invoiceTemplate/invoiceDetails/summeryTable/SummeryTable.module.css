@@ -1,0 +1,75 @@
+.Grid {
+  margin: 10px;
+  border: solid #1f3b7b 2px;
+  border-radius: 10px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 90%;
+  height: fit-content;
+  color: #1f3b7b;
+}
+.p {
+  font-size: 0.85rem;
+  color: #1f3b7b;
+}
+.GridColumn {
+  border: #1f3b7b solid 2px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+.GridColumnWeight {
+  grid-column: 4 / span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  margin: 2px;
+}
+.GridColumnWeightText {
+  border: #1f3b7b solid 2px;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.GridColumnWeightTextGmAndMg {
+  margin-right: 1px;
+  border: #1f3b7b solid 2px;
+  border-top: #1f3b7b solid 1px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.GridRow {
+  border-top: #1f3b7b solid 1px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.GridColumnSummery {
+  border: #1f3b7b solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}

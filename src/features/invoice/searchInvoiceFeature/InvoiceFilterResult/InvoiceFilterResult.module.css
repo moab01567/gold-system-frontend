@@ -1,0 +1,11 @@
+
+
+.InvoiceFilterResultDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    min-height: 300px;
+    width: 100%;
+}

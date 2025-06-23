@@ -1,0 +1,60 @@
+.pageLayout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 75px auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #1f3b7b;
+}
+
+.menu {
+  color: #1f3b7b;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menuButton {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #1f3b7b;
+  border: solid #1f3b7b 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 300px;
+}
+.menuButton:hover {
+  transition: 700ms;
+  background: #3e70c9;
+  border: solid #3e70c9 5px;
+}
+.menuButtonSelected {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 300px;
+  background: #4c86ed;
+  border: solid #4c86ed 5px;
+}
+.contentDiv {
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,10 @@
+.mainDiv {
+  display: flex;
+  align-items: center;
+}
+.pFont {
+  color: #1f3b7b;
+}
+.p {
+  margin-left: 10%;
+}
