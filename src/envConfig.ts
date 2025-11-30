@@ -1,3 +1,3 @@
 export const envConfig = {
-  API_BACKEND: "apigold.wrkspace.dev",
+  API_BACKEND: "https://apigold.wrkspace.dev",
 };
